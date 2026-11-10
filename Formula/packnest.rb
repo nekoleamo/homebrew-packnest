@@ -3,30 +3,30 @@
 # formula 名是 packnest，装出来的命令是 pk（brew 允许两者不同名，先例 ripgrep→rg）。
 # 由 scripts/gen-manifests.sh 生成，别手改。
 class Packnest < Formula
-  desc "国内网络开箱可用的多语言运行时安装器（node/pnpm/bun/deno/go/python）"
+  desc "国内网络开箱可用的多语言运行时安装器（node/pnpm/bun/go/python）"
   homepage "https://gitee.com/null_593_5354/packnest"
-  version "0.7.9"
+  version "0.8.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.9/packnest_0.7.9_darwin_arm64.tar.gz"
-      sha256 "3f85c5395650a75cd03ccfa9cb47e704ad7e1dac5f66bcfa9fde67eae109feef"
+      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.8.0/packnest_0.8.0_darwin_arm64.tar.gz"
+      sha256 "895f9aa9afed3b3f2feac555a5cce2dd472041e8469b1981569f2582da60faed"
     end
     on_intel do
-      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.9/packnest_0.7.9_darwin_amd64.tar.gz"
-      sha256 "4396a38ef84ccad370e493676338de8bff53976dfeeca81c0b7786896e278e0a"
+      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.8.0/packnest_0.8.0_darwin_amd64.tar.gz"
+      sha256 "abc788d806c0225c0b96491742753aa37119794bfd21aa99312ea2b49c2f9147"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.9/packnest_0.7.9_linux_arm64.tar.gz"
-      sha256 "ffa6581557078eabcc222dc1d6cc99a2d30525dbd913b7922d1b88f344b56190"
+      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.8.0/packnest_0.8.0_linux_arm64.tar.gz"
+      sha256 "e93b5951b7015e38b51b7ff1169d81cdb67a3dfc32f938f1530e57e5529cc3c2"
     end
     on_intel do
-      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.9/packnest_0.7.9_linux_amd64.tar.gz"
-      sha256 "fe5653bdc764091851cb0d0b5091598a615923bc1f0ce6068b918f8bf4f4d2a0"
+      url "https://gitee.com/null_593_5354/packnest/releases/download/v0.8.0/packnest_0.8.0_linux_amd64.tar.gz"
+      sha256 "e8341aebd7374e15f356375d0f310d4ac04ada11d363f0130a1c00c7a37a0b8b"
     end
   end
 
