@@ -11,22 +11,22 @@ class Packnest < Formula
   on_macos do
     on_arm do
       url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.6/packnest_0.7.6_darwin_arm64.tar.gz"
-      sha256 "6ec55a922f7c6e6b2466bdf7b8ab0134df5d7c76e417550ccae95be8f7c912bd"
+      sha256 "fdd4391cd1a988e329e466adbf5a7d527e03750341b2f2f6f8ed0dff428fac50"
     end
     on_intel do
       url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.6/packnest_0.7.6_darwin_amd64.tar.gz"
-      sha256 "1a08529c47f32c91742a7b877e828157dbbc59e4b45b04ca45f79787a746aa26"
+      sha256 "8fcc33ea711942116da24f03640a6241467a9cb2e990ba99090396b3e0814564"
     end
   end
 
   on_linux do
     on_arm do
       url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.6/packnest_0.7.6_linux_arm64.tar.gz"
-      sha256 "310d4fcbfd39f4c1e231a26f5328cd8a3671b7a4576302c5a7220ad5eecbe515"
+      sha256 "0c544b986ee3f3442fe458d6668ddd8b682d2e630a1e390ccf33882919047b54"
     end
     on_intel do
       url "https://gitee.com/null_593_5354/packnest/releases/download/v0.7.6/packnest_0.7.6_linux_amd64.tar.gz"
-      sha256 "e1a866f08e45359a9f3b47d0b452e3807fd7571eb97c8f9f6a2cc5ddaba9555c"
+      sha256 "ac0ef3138492c1a177f8e6dee1f3ce1656520581e938224eea6343ac361ee128"
     end
   end
 
